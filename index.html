@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+
+    <section class="calc-container">
+        <section class="input-container">
+            <input type="number" min="0" name="val1" id="val1" placeholder="0" value="0">
+            <input type="number" min="0" name="val2" id="val2" placeholder="0" value="0">
+        </section>
+        <div class="btn-wrapper">
+            <button type="button" id="ac" class="ac" value="ac">AC</button>
+            <button type="button" value="sum">+</button>
+            <button type="button" value="res">-</button>
+            <button type="button" value="mul">*</button>
+            <button type="button" value="div">/</button>
+        </div>
+        <section>
+            <div class="input-wrapper">
+                <span>=</span>
+                <input class="result" type="text" name="result" id="result" disabled value="0">
+            </div>
+        </section>
+    </section>
+
+</body>
+
+</html>
