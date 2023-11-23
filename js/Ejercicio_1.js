@@ -1,5 +1,5 @@
 /**
- * Ejercicon 1
+ * Ejercicio 1
  */
 
 function suma(a, b, callback) {
@@ -10,16 +10,16 @@ function suma(a, b, callback) {
 El tercer parámetro "callback" es una función pasada como argumento.   
 
 ¿En que casos es obligatorio desarrollar este tipo de funciones?
-Este tipo de funciones se utiliza para continuar la ejecucion del código 
-una vez que se haya completado una operacion asincrónica o sincrónica.
+Este tipo de funciones se utiliza para continuar la ejecución del código 
+una vez que se haya completado una operación asincrónica o sincrónica.
 */
 
-//llamada a la funcion
+//llamada a la función
 let a = 5;
 let b = 3;
 
 suma(a, b, callback);
 
 function callback() {
-  console.log("El callback se ha ejecutado despues del código.");
+  console.log("El callback se ha ejecutado después del código.");
 }
